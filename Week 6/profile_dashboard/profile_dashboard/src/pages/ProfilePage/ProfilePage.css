@@ -1,0 +1,19 @@
+.profile-page {
+  padding: 30px;
+}
+
+.profile-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 16px;
+  }
+}

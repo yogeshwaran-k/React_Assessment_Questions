@@ -1,0 +1,19 @@
+.destination-page {
+  padding: 30px;
+}
+
+.destination-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.destination-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .destination-page {
+    padding: 16px;
+  }
+}

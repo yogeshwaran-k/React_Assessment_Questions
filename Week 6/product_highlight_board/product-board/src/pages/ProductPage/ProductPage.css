@@ -1,0 +1,19 @@
+.product-page {
+  padding: 30px;
+}
+
+.product-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .product-page {
+    padding: 16px;
+  }
+}

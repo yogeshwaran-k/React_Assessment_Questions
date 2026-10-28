@@ -1,0 +1,21 @@
+.course-card {
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.course-card__details {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .course-card {
+    width: 100%;
+  }
+}

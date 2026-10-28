@@ -1,0 +1,19 @@
+.movie-page {
+  padding: 30px;
+}
+
+.movie-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movie-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .movie-page {
+    padding: 16px;
+  }
+}

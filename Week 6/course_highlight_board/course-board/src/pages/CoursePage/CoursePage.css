@@ -1,0 +1,19 @@
+.course-page {
+  padding: 30px;
+}
+
+.course-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .course-page {
+    padding: 16px;
+  }
+}

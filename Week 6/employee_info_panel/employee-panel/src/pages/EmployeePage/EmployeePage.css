@@ -1,0 +1,19 @@
+.employee-page {
+  padding: 30px;
+}
+
+.employee-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.employee-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .employee-page {
+    padding: 16px;
+  }
+}

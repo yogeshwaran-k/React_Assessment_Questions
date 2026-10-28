@@ -1,0 +1,19 @@
+.gadget-page {
+  padding: 30px;
+}
+
+.gadget-page__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gadget-page__content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .gadget-page {
+    padding: 16px;
+  }
+}
