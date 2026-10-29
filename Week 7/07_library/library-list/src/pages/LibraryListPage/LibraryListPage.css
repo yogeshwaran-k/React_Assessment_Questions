@@ -1,0 +1,17 @@
+.library-list {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.library-list__header {
+  margin-bottom: 16px;
+}
+
+.library-list__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

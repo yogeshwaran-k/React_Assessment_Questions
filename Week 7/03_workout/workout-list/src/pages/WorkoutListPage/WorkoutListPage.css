@@ -1,0 +1,17 @@
+.workout-list {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.workout-list__header {
+  margin-bottom: 16px;
+}
+
+.workout-list__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
